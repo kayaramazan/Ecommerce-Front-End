@@ -94,7 +94,14 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/slick.min.js",
+              "src/assets/js/nouislider.min.js",
+              "src/assets/js/jquery.zoom.min",
+              "src/assets/js/main.js"
+            ]
           }
         },
         "lint": {
@@ -123,6 +130,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "frontend"
+    }
+  },
+  "defaultProject": "frontend",
+  "cli": {
+    "analytics": "5b53b905-45d9-4404-bdf0-3d1edc0b50c6"
+  }
 }
